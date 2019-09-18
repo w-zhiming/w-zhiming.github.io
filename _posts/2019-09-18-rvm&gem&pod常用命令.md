@@ -1,4 +1,5 @@
-- ruby rvm 常用指令
+## ruby rvm 常用指令
+
 ```
 $ ruby -v # 查看ruby 版本
 $ rvm list known # 列出已知的 ruby 版本
@@ -14,7 +15,8 @@ $ curl -sSL https://get.rvm.io | bash -s stable --ruby # 默认安装 rvm 最新
 $ curl -sSL https://get.rvm.io | bash -s stable --ruby=2.3.0 # 安装 rvm 指定版本
 $ source ~/.rvm/scripts/rvm # 载入 rvm
 ```
-- Gem
+
+##  Gem
 ```
 $ gem -v # 查看 gem 版本
 $ gem source # 查看 gem 配置源
@@ -56,7 +58,9 @@ $ sudo gem update cocoapods # 更新 CocoaPods 至最新版（以管理员权限
 $ sudo gem update cocoapods --pre # 更新 CocoaPods 至预览版（以管理员权限）
 $ sudo gem uninstall cocoapods -v 0.39.0 # 移除 CocoaPods 指定版本（以管理员权限）
 ```
-- pod
+
+##  pod
+
 ```
 $ pod setup # CocoaPods 将信息下载到~/.cocoapods/repos 目录下。如果安装 CocoaPods 时不执行此命令，在初次执行 pod intall 命令时，系统也会自动执行该指令
 $ pod --version # 检查 CocoaPods 是否安装成功及其版本号
