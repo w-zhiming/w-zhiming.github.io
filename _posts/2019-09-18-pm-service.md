@@ -1,3 +1,9 @@
+---
+title:  "pm2 & service 配置"
+date:   2018-03-31 02:36:26 +0800
+tags:   nodejs
+---
+
 ## pm2 安装
 ```
 npm install -g pm2
