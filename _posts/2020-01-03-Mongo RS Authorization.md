@@ -48,7 +48,7 @@ use f4a191118
 db.createUser({ user:"f4a", pwd:"Besta2020", roles: [ { role: "dbOwner", db: "f4a191118" } ] });
 ```
 
-## 连接测试
+## Client link test
 
 ```javascript
     “mongodb://f4a:Besta2020@f4a.5dkg.net:3002/f4a191118”
