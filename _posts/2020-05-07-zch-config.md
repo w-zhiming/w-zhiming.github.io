@@ -27,9 +27,9 @@ vim ~/.zshrc
 
 # set config
 ZSH_THEME="ys"
-plugins=(git z vscode zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)
 
-# grap .bashprofile to .zshrc 
+# grap .bashprofile to .zshrc
 # source ~/bashprofile
 
 # run .zshrc
