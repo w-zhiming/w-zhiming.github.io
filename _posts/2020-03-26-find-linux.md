@@ -98,3 +98,17 @@ exp1, exp2
 ```bash
 # find / -type f -size 0 -exec ls -l {} \;
 ```
+
+```bash
+# -iname is like -name, but it is case-insensitive.
+find ~ -iname '*jpg'
+
+# Some of the pictures might have a .jpeg extension. Fortunately, we can combine patterns with an "or," represented by -o.
+find ~ ( -iname 'jpeg' -o -iname 'jpg' )
+
+#so you want to find all the gigantic (let's define that as "greater than 1 gigabyte") files in the log directory:
+find /var/log -size +1G
+
+#Or maybe you want to find all the files owned by bcotton in /data:
+find /data -owner bcotton
+```
