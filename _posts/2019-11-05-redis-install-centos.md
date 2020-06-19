@@ -4,30 +4,35 @@
 ## 安装redis
 
 1. 检查是否有yum源
-`yum install redis`
+  `yum install redis`
+
 2. 下载fedora的epel仓库
-`yum install epel-release`
+  `yum install epel-release`
+
 3. 安装redis数据库
-`yum install redis`
+  `yum install redis`
+
 4. 安装完毕后，使用下面的命令启动redis服务
 
     ```bash
-
-        # 启动redis
-        service redis start
-        # 停止redis
-        service redis stop
-        # 查看redis运行状态
-        service redis status
-        # 查看redis进程
-        ps -ef | grep redis
+# 启动redis
+    service redis start
+    # 停止redis
+    service redis stop
+    # 查看redis运行状态
+    service redis status
+    # 查看redis进程
+    ps -ef | grep redis
     ```
-
+    
 5. 设置redis为开机自动启动
-`chkconfig redis on`
+
+  ```bash
+  chkconfig redis on
+  ```
 
 6. 进入redis服务
-  
+
     ```bash
     # 进入本机redis
     redis-cli
@@ -46,5 +51,5 @@
 5. 使用端口登陆
 `redis-cli -h 127.0.0.1 -p 6179`
 6. 配置redis远程连接
-    - bind 127.0.0.1改为 #bind 127.0.0.1 (注释掉)
+    - bind 127.0.0.1 改为 #bind 127.0.0.1 (注释掉)
     - protected-mode yes 改为 protected-mode no

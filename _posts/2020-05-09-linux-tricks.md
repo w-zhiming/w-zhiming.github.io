@@ -23,3 +23,13 @@ export TZ
 sshpass -p xxx scp a.txt xxx@192.168.1.101:/home/xxx/a.txt  
 
 ```
+
+
+
+## 查看端口是否被占用
+```bash
+lsof -i tcp:port
+## (port替换成端口号，比如6379）可以查看该端口被什么程序占用，并显示PID，方便KILL（kill pid）
+```
+
+

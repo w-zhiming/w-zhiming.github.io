@@ -1,4 +1,4 @@
-# mac上使用国内镜像安装brew
+# Mac 使用国内镜像安装brew
 
 ## 安装brew
 
