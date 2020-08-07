@@ -18,7 +18,7 @@ sudo systemctl enable docker
 
 ```bash
 ## 查看ubuntu版本
-cat /etc/lsb-release、
+cat /etc/lsb-release
 ## remove old version
 sudo apt-get remove docker docker-engine docker-ce docker.io
 
