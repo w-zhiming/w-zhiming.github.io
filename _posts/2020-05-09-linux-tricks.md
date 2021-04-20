@@ -1,5 +1,11 @@
 # Linux tricks
 
+## Change linux hostname
+
+```bash
+vim /etc/hostname
+```
+
 ## Change linux time zone
 
 ```bash
@@ -23,8 +29,6 @@ export TZ
 sshpass -p xxx scp a.txt xxx@192.168.1.101:/home/xxx/a.txt  
 
 ```
-
-
 
 ## 查看端口是否被占用
 ```bash
@@ -70,7 +74,6 @@ touch -mt  201909052248  test.log
 touch -r 文件  文件夹
 
 ```
-
 
 
 ## Ubuntu server版启用root用户登录
