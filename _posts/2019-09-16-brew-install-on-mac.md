@@ -1,5 +1,15 @@
 # Mac 使用国内镜像安装brew
 
+
+## (new)最新安装方式
+
+```bash
+    /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+    
+    //1. 选择第一个源，中科大
+    //2. brew doctor， 按步骤更新
+```
+
 ## 安装brew
 
 - 将brew的install文件下载本地
@@ -78,3 +88,6 @@
 - 配置文件在/usr/local/etc中
 - 安装文件在/usr/local/Cellar中
 - 二进制可执行程序的软连接在/usr/local/bin中
+
+
+
