@@ -7,6 +7,8 @@ https://github.com/ymoslem/OpenNMT-Tutorial/blob/main/1-NMT-Data-Processing.ipyn
 
 https://github.com/ymoslem/OpenNMT-Tutorial/blob/main/2-NMT-Training.ipynb
 
+https://opennmt.net/OpenNMT-py/FAQ.html#how-can-i-update-a-checkpoint-s-vocabulary
+
 ## dataset
 https://opus.nlpl.eu/
 
