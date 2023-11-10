@@ -2,8 +2,6 @@
 
 # NoSQLBooster for MongoDB trail
 
-
-
 - 下载工具
 
   ```shell
