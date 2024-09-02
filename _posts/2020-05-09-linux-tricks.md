@@ -98,3 +98,13 @@ hostname 10.180.2.16
 user root
 ```
 
+## vim set nginx syntax highlight.
+
+```bash
+cd /usr/share/vim/vim80/syntax
+wget -O nginx.vim http://www.vim.org/scripts/download_script.php\?src_id\=19394
+vim /usr/share/vim/vim80/filetype.vim
+
+"for nginx
+au BufRead,BufNewFile */nginx/* set ft=nginx
+```
